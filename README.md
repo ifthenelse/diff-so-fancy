@@ -21,6 +21,13 @@ Issues relating to packaging ("installation does not work", "version is out of d
 
 **Note:** Windows users may need to install [MinGW](https://sourceforge.net/projects/mingw/files/) or the [Windows subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
+## Uninstall
+
+```shell
+git config --global core.pager ''
+```
+(see https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_pager)
+
 ## Usage
 
 ### With git
